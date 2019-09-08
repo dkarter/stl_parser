@@ -1,6 +1,7 @@
 # StlParser
 
-Parses ASCII STL files into Elixir structs
+Parses ASCII STL files into Elixir structs uses Erlang's built-in :leex and
+:yecc modules for tokenizing and creating an AST.
 
 ## Usage
 
